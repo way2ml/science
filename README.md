@@ -27,7 +27,7 @@ Visit the [demo site]([https://texify2.io](https://michaelneuper.github.io/hugo-
 ## Usage
 
 ```bash
-git submodule add https://github.com/weastur/hugo-texify2.git themes/hugo-texify2
+git submodule add https://github.com/michaelneuper/hugo-texify3.git themes/hugo-texify3
 ```
 
 Visit the [wiki](https://github.com/michaelneuper/hugo-texify3/wiki) for more information on how to install and configure.
