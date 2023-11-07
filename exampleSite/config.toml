@@ -7,7 +7,7 @@ hasCJKLanguage = true
 languageCode = "en"
 paginate = 5
 rssLimit = 10
-theme = "hugo-texify2"
+theme = "hugo-texify3"
 title = "TeXify2 - hugo theme | weastur"
 
 [markup]
@@ -22,8 +22,8 @@ style = "tango"
   startLevel = 2
 
 [author]
-email = "me@weastur.com"
-name = "Pavel Sapezhka"
+email = "michael@michaelneuper.com"
+name = "Michael Neuper"
 
 [params]
 numberedSubtitles = true
