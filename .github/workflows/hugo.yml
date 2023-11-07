@@ -57,7 +57,7 @@ jobs:
           hugo \
             --config=exampleSite/config.toml \
             --contentDir=exampleSite/content \
-            --themesDir=..\ \
+            --themesDir=.. \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
