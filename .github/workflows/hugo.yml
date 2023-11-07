@@ -55,7 +55,7 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --config=exampleSite/hugo.toml \
+            --config=exampleSite/config.toml \
             --contentDir=exampleSite/content \
             --themesDir=..\ \
             --minify \
