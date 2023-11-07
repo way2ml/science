@@ -41,6 +41,19 @@
     padding: 1rem 2rem;
   }
 
+  pre {
+    background-color: var(--bg_s) !important;
+    border-radius: $radius;
+    font-family: "Latin Modern Mono", Courier, monospace;
+    position: relative;
+    overflow-x: auto;
+    padding: 1rem;
+  
+    code {
+      padding: 0;
+    }
+  }
+
   code {
     background-color: var(--bg_s);
     border-radius: $radius;
