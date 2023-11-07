@@ -2,7 +2,7 @@
 title = "About"
 description = "A minimal, latex-style hugo theme for personal blogging"
 date = "2023-06-20"
-aliases = ["about-us", "about-texify2", "contact"]
+# aliases = ["about-us", "about-texify2", "contact"]
 author = "weastur"
 +++
 A minimal, latex-style hugo theme for personal blogging.
