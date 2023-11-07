@@ -8,7 +8,7 @@ languageCode = "en"
 paginate = 5
 rssLimit = 10
 theme = "hugo-texify3"
-title = "TeXify3 - hugo theme | Michael"
+title = "TeXify3 - Hugo Theme | Michael"
 
 [markup]
 defaultMarkdownHandler = "goldmark"
@@ -62,16 +62,16 @@ toc = true
 [params.commentEngine]
 code = """
 <script src="https://giscus.app/client.js"
-        data-repo="weastur/hugo-texify2"
-        data-repo-id="R_kgDOJwiYnA"
-        data-category="Comments"
-        data-category-id="DIC_kwDOJwiYnM4CXVgQ"
-        data-mapping="title"
-        data-strict="1"
+        data-repo="michaelneuper/hugo-texify3"
+        data-repo-id="R_kgDOIjPNaQ"
+        data-category="General"
+        data-category-id="DIC_kwDOIjPNac4CaklA"
+        data-mapping="pathname"
+        data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="light"
+        data-theme=""
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"

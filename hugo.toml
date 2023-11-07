@@ -8,7 +8,7 @@ categories = "categories"
 
 [params]
 title="TeXify3"
-description = "TeXify3 - a minimal, latex-style hugo theme for personal blogging"
+description = "TeXify3 - A latex-style hugo theme with the gruvbox color scheme for personal blogging"
 images = ['images/logo.jpg']
 footnote = """
 Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 

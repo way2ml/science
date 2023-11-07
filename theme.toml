@@ -1,13 +1,13 @@
-name = "TeXify2"
+name = "TeXify3"
 license = "MIT"
-licenselink = "https://github.com/weastur/hugo-texify2/blob/master/LICENSE"
-description = "A minimal, latex-style hugo theme for personal blogging"
-homepage = "https://github.com/weastur/hugo-texify2/"
-demosite = "https://texify2.io"
+licenselink = "https://github.com/michaelneuper/hugo-texify3/blob/master/LICENSE"
+description = "A latex-style hugo theme with the gruvbox color scheme for personal blogging"
+homepage = "https://github.com/michaelneuper/hugo-texify3"
+demosite = "https://michaelneuper.github.io/hugo-texify3/"
 tags = ["blog", "clean", "latex", "light", "minimal", "responsive", "simple"]
 features = ["blog"]
-min_version = "0.113"
+min_version = "0.115.1"
 
 [author]
-name = "weastur"
-homepage = "https://github.com/weastur/"
+name = "Michael Neuper"
+homepage = "https://michaelneuper.com"
