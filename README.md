@@ -28,7 +28,6 @@ Visit the [demo site]([https://texify2.io](https://michaelneuper.github.io/hugo-
 
 ```bash
 git submodule add https://github.com/weastur/hugo-texify2.git themes/hugo-texify2
-echo "theme = 'hugo-texify2'" >> hugo.toml
 ```
 
 Visit the [wiki](https://github.com/michaelneuper/hugo-texify3/wiki) for more information on how to install and configure.
