@@ -1,46 +1,29 @@
 [module]
   [module.hugoVersion]
-    min = "0.113.0"
-
-[[menu.main]]
-identifier = "post"
-name = "Posts"
-url = "/"
-weight = 1
-[[menu.main]]
-identifier = "archives"
-name = "Archive"
-url = "/post/"
-weight = 2
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 3
+    min = "0.115.1"
 
 [taxonomies]
 tags = "tags"
+categories = "categories"
 
 [params]
-title="TeXify2"
-description = "TeXify2 - a minimal, latex-style hugo theme for personal blogging"
+title="TeXify3"
+description = "TeXify3 - a minimal, latex-style hugo theme for personal blogging"
 images = ['images/logo.jpg']
 footnote = """
-Follow me on <a class=link href=https://github.com/weastur target=_blank rel=noopener>GitHub</a>,
-<a class=link href=https://www.linkedin.com/in/weastur/ target=_blank rel=noopener>LinkedIn</a> or
-<a class=link href=/index.xml>RSS</a> |
-<a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
+Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
+Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
 """
-keywords = ["hugo", "latex", "theme", "blog", "texify", "texify2", "weastur"]
+keywords = ["hugo", "latex", "theme", "blog", "texify", "texify2", "texify3", "michael", "neuper"]
 customCSS = []
-customJS = []
-dateFormat = "January 2, 2006"
+customJS = ["js/script.js"]
+dateFormat = "2 January 2006"
 emphasisWithDots = true
 since = "2023"
 toc = false
 showWordCount = true
 showReadingTime = true
-rootFontSize = "120%"
+rootFontSize = "105%"
 math = true
 enableDuckDuckGoSearchBox = true
 numberedSubtitles = false
