@@ -152,7 +152,7 @@ button.copy-button {
 .content h4,
 .content h5,
 .content h6 {
-  line-height: $f * $phi;
+  line-height: $f * $phi + 1;
 }
 
 .content h1 {
