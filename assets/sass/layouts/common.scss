@@ -19,12 +19,12 @@ a {
   text-decoration: none;
 
   &:link {
-    color: var(--blue-dim);
+    color: var(--blue);
   }
 
   &:hover,
   &:visited {
-    color: var(--blue);
+    color: var(--blue-dim);
   }
 }
 
