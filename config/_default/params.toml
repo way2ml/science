@@ -17,6 +17,7 @@ rootFontSize = "100%"
 math = true
 enableDuckDuckGoSearchBox = true
 numberedSubtitles = true
+enableInlineShortcodes = true
 
 [commentEngine]
 code = """
