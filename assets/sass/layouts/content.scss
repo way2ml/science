@@ -101,7 +101,7 @@
 }
 
 button.copy-button {
-  background-color: var(--background);
+  background-color: var(--bg1);
   color: var(--fg1);
   position: absolute;
   top: calc((4px + $margin) / 2);
@@ -115,6 +115,7 @@ button.copy-button {
 
   &:hover {
     opacity: 1;
+    background-color: var(--bg);
   }
 
   .octicon-check {
