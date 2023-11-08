@@ -1,4 +1,4 @@
-A minimal, latex-style hugo theme for personal blogging.
+A minimal, LaTeX-style hugo theme for personal blogging.
 Visit the [wiki](https://github.com/michaelneuper/hugo-texify3/wiki) for information on how to install and configure.
 
 ---
