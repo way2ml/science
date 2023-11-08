@@ -79,17 +79,3 @@ numberedSubtitles = true
   whatsapp = true
   hackernews = true
   telegram = true
-
-[markup]
-defaultMarkdownHandler = "goldmark"
-
-  [markup.goldmark.renderer]
-  unsafe = true
-
-  [markup.highlight]
-  noClasses = false
-
-  [markup.tableOfContents]
-  endLevel = 6
-  ordered = false
-  startLevel = 2
