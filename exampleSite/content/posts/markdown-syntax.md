@@ -48,11 +48,12 @@ The blockquote element represents content that is quoted from another source, op
 
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 > **Note** that you can use *Markdown syntax* within a blockquote.
+> > **Note** that you can put a blockquote inside a blockquote
 
 ### Blockquote with attribution
 
 > Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+> — Rob Pike[^1]
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
@@ -119,17 +120,14 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 
 ### Ordered List
 
-1. First item
-2. Second item
-3. Third item
+1. Item 1
+   1. Sub-item 1.1
+   2. Sub-item 1.2
+   3. Sub-item 1.3
+2. Item 2
+3. Item 3
 
 ### Unordered List
-
-- List item
-- Another item
-- And another item
-
-### Nested list
 
 - Fruit
   - Apple
@@ -139,14 +137,13 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
   - Milk
   - Cheese
 
-### Numbered list
+### Checklist
 
-1. Item 1
-   1. Sub-item 1.1
-   2. Sub-item 1.2
-   3. Sub-item 1.3
-2. Item 2
-3. Item 3
+- [x] Item 1
+- [ ] Item 2
+  - [x] Sub-item 2.1
+  - [ ] Sub-item 2.2 
+- [ ] Item 3 
 
 ## Other Elements — abbr, sub, sup, kbd, mark
 
