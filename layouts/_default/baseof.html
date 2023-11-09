@@ -18,15 +18,15 @@
   {{ end }}
 
   <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}images/favicon-16x16.png">
 
   <!-- keywords -->
   {{ if .Keywords }}
-  <meta name="keywords" content="{{ delimit .Keywords " " }} {{ delimit .Site.Params.keywords " " }}">
+  <meta name="keywords" content='{{ delimit .Keywords " " }} {{ delimit .Site.Params.keywords " " }}'>
   {{ else }}
-  <meta name="keywords" content="{{ delimit .Site.Params.keywords " " }}">
+  <meta name="keywords" content='{{ delimit .Site.Params.keywords " " }}'>
   {{ end }}
 
   <!-- math -->
