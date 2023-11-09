@@ -154,6 +154,10 @@ main {
   max-width: 100%;
   padding: 0;
   width: calc(100% - 2rem); // TODO
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    width: 100%;
+  }
 }
 
 // footer
