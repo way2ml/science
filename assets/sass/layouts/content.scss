@@ -28,6 +28,8 @@
     }
 
     &.footnote-ref {
+      text-decoration: none;
+
       &::before {
         content: "[";
       }
@@ -38,11 +40,15 @@
   }
 
   blockquote {
-    background: var(--bg_s);
+    background-color: var(--bg_s);
     border-left: var(--fg) $border solid;
     border-radius: $radius;
     font-style: italic;
     padding: 1rem 2rem;
+  }
+
+  blockquote blockquote {
+    background-color: var(--bg1);
   }
 
   pre {
@@ -52,7 +58,7 @@
     position: relative;
     overflow-x: auto;
     padding: 1rem;
-  
+
     code {
       padding: 0;
     }
