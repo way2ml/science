@@ -21,7 +21,11 @@
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
 
     &.footnote-ref {
       &::before {
