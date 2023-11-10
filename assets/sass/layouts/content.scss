@@ -102,6 +102,14 @@
   ul {
     margin-left: $margin;
   }
+
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    margin-left: $margin;
+  }
 }
 
 button.copy-button {
@@ -139,7 +147,8 @@ button.copy-button {
 .content pre,
 .content ol,
 .content table,
-.content ul {
+.content ul,
+.content dl {
   margin-bottom: $margin;
 }
 
