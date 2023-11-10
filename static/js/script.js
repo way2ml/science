@@ -1,4 +1,4 @@
-// // Add copy button to <pre> blocks
+// Add copy button to <pre> blocks
 document.addEventListener("DOMContentLoaded", function () {
   const preBlocks = document.querySelectorAll("pre");
 
@@ -70,3 +70,11 @@ darkModeToggle.forEach((toggle) => {
     }
   });
 });
+
+// Scroll to top button
+var backToTopBtn = document.getElementById("back-to-top");
+
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
