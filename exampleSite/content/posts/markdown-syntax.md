@@ -68,9 +68,9 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 
 ### Inline Markdown within tables
 
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
+| Italics   | Bold     | Code   | Strikethrough     | Underline            | Highlight              |
+| --------  | -------- | ------ | ----------------- | -------------------- | ---------------------- |
+| *italics* | **bold** | `code` | ~~strikethrough~~ | <ins>underline</ins> | <mark>highlight</mark> |
 
 ## Code Blocks
 
@@ -145,7 +145,37 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
   - [ ] Sub-item 2.2 
 - [ ] Item 3 
 
+### Definition List
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+## Symbols
+
+You can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (©), you can copy and paste the HTML entity for copyright `(&copy;)` into your Markdown document.
+
+```markdown
+Copyright (©) — &copy;
+Registered trademark (®) — &reg;
+Trademark (™) — &trade;
+Euro (€) — &euro;
+Left arrow (←) — &larr;
+Up arrow (↑) — &uarr;
+Right arrow (→) — &rarr;
+Down arrow (↓) — &darr;
+Degree (°) — &#176;
+Pi (π) — &#960;
+```
+
+For a complete list of available HTML entities, refer to Wikipedia’s page on [HTML entities](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).
+
 ## Other Elements — abbr, sub, sup, kbd, mark
+
+[This is a comment that will be hidden.]: #
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 
