@@ -1,4 +1,4 @@
-# TeXify2
+# TeXify3
 
 [![Hugo](https://img.shields.io/badge/hugo-0.115.1-blue.svg)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
