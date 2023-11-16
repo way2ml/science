@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Hugo](https://github.com/michaelneuper/hugo-texify3/actions/workflows/hugo.yml/badge.svg)](https://github.com/michaelneuper/hugo-texify3/actions/workflows/hugo.yml)
 
-A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging, forked from [TeXify2](https://github.com/weastur/hugo-texify2)
+> A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging
 
 ![texify-light](https://github.com/michaelneuper/hugo-texify3/assets/73108749/8b006060-939f-4f11-b597-8ff1861fce90)
 ![texify-dark](https://github.com/michaelneuper/hugo-texify3/assets/73108749/77d34466-037c-4402-94e3-019d5b2122e5)
