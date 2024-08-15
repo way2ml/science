@@ -32,7 +32,7 @@ View full lighthouse report [here](https://pagespeed.web.dev/analysis/https-mich
 ## Usage
 
 ```bash
-git submodule add https://github.com/way2ml/science.git themes/science
+git submodule add https://github.com/way2ml/hugo-science.git themes/hugo-science
 ```
 
 Visit the [wiki](https://github.com/michaelneuper/hugo-texify3/wiki) for more information on how to install and configure.
