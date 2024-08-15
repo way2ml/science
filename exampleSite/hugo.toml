@@ -1,4 +1,4 @@
-baseURL = "https://michaelneuper.github.io/hugo-texify3/"
+baseURL = "https://github.com/way2ml/hugo-science"
 disqusShortname = ""
 enableGitInfo = true
 enableRobotsTXT = true
@@ -6,23 +6,23 @@ hasCJKLanguage = true
 languageCode = "en"
 paginate = 5
 rssLimit = 10
-theme = "hugo-texify3"
-title = "TeXify3"
+theme = "hugo-science"
+title = "Way To Machine Learning"
 
 [author]
-name = "Michael Neuper"
-email = "michael@michaelneuper.com"
+name = "Jie Huang"
+email = "jie.huang@aalto.fi"
 
 [taxonomies]
 tags = "tags"
 categories = "categories"
 
 [params]
-title="TeXify3"
-description = "TeXify3 - A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging"
+title="Science"
+description = "Science - A science hugo theme"
 footnote = """
 Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
-Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+Theme <a class=link href=https://github.com/way2ml/hugo-science target=_blank rel=noopener>Science</a>
 """
 customCSS = []
 customJS = []
