@@ -1,4 +1,4 @@
-baseURL = "https://github.com/way2ml/hugo-science"
+baseURL = "https://way2ml.github.io"
 disqusShortname = ""
 enableGitInfo = true
 enableRobotsTXT = true
@@ -18,8 +18,8 @@ tags = "tags"
 categories = "categories"
 
 [params]
-title="Science"
-description = "Science - A science hugo theme"
+title="Way To Machine Learning"
+description = "Understand Physcis through Machine Learning"
 footnote = """
 Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
 Theme <a class=link href=https://github.com/way2ml/hugo-science target=_blank rel=noopener>Science</a>
