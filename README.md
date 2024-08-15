@@ -1,6 +1,6 @@
-# TeXify3
+# Science
 
-> A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging
+> A scientific hugo theme with the gruvbox color scheme for personal blogging
 
 [![Hugo](https://img.shields.io/badge/hugo-0.115.1-blue.svg)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
