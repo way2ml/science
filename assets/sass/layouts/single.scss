@@ -7,7 +7,9 @@
 
   .post-heading {
     text-align: left;
-
+    .post-title{
+      color: var(--fg1);
+    }
     .publish-metadata {
       color: var(--text-secondary);
       font-size: large;
@@ -22,8 +24,8 @@
   }
 
   .tag {
-    background-color: var(--bg_s);
-    border-radius: $radius;
+    //background-color: var(--bg_s);
+    //border-radius: $radius;
     padding: 0.2em 0.3em;
   }
 
@@ -32,13 +34,13 @@
   }
 
   .toc {
-    background-color: var(--bg_s);
-    border: var(--fg4) 1px dashed;
+    //background-color: var(--bg_s);
+    border: var(--fg4) 1.5px dashed;
     border-radius: $radius;
     display: inline-block;
-    margin: 1rem;
+    margin: 0rem;
     padding: 0.5rem 1rem;
-
+    width: 100%;
     a {
       color: var(--fg);
 
@@ -71,7 +73,7 @@
   }
 
   .content {
-    padding-top: 1rem;
+    padding-top: 0rem;
  }
 
   #back-to-top {

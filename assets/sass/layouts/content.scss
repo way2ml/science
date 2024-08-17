@@ -85,9 +85,9 @@
   }
 
   table {
-    display: block;
-    overflow-x: auto;
-    margin: auto;
+    width: auto;
+    margin-left: auto; /* Center the table horizontally */
+    margin-right: auto; /* Center the table horizontally */
     background-color: var(--bg);
     border-collapse: collapse;
     border: none;
@@ -166,6 +166,7 @@ button.copy-button {
 .content h5,
 .content h6 {
   line-height: $f * $phi + 1;
+  color: var(--fg1);
 }
 
 .content h1 {
@@ -194,7 +195,11 @@ button.copy-button {
 
 .content img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .content p {
   text-align: justify;

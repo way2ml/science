@@ -7,7 +7,7 @@ languageCode = "en"
 paginate = 5
 rssLimit = 10
 theme = "hugo-science"
-title = "Info. Physics"
+title = "Way to Machine Learning"
 
 [author]
 name = "Jie Huang"
@@ -18,17 +18,18 @@ tags = "tags"
 categories = "categories"
 
 [params]
-title="Information and Physics"
+title="Way To Machine Learning"
 description = "Understand Physcis through Machine Learning"
 customCSS = []
 customJS = []
 dateFormat = "2 January 2006"
 emphasisWithDots = true
-toc = false
+toc = true
 rootFontSize = "105%"
 math = true
 enableDuckDuckGoSearchBox = true
 numberedSubtitles = false
+enableEmoji = true
 
 [params.commentEngine]
 code = """
@@ -42,7 +43,7 @@ code = """
       data-reactions-enabled="0"
       data-emit-metadata="0"
       data-input-position="top"
-      data-theme="light"
+      data-theme="https://cdn.jsdelivr.net/gh/HuangJiaLian/DataBase0@master/uPic/2024-08-17-18-40-light_way2ml.css"
       data-lang="en"
       data-loading="lazy"
       crossorigin="anonymous"

@@ -84,12 +84,10 @@ time {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem $padding;
+  padding: 1.5rem $padding;
   & > h1 {
     text-align: left;
     margin: 0;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     color: white;
 
     @media screen and (min-width: $mobile-breakpoint) {
@@ -175,9 +173,9 @@ main {
   display: left;
   font-size: 0.9rem;
   flex-direction: column;
-  // margin-top: auto; /* Allows the footer to stick to the bottom */ 
+  margin-top: auto; /* Allows the footer to stick to the bottom */ 
   padding: 1rem $padding;
-
+  color: white;
   a {
     color: white; /* Set the desired link color here */
     text-decoration: underline;
