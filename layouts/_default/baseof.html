@@ -77,11 +77,11 @@
 </head>
 
 <body>
+  {{ partial "header.html" . }}
   <div id="wrapper">
-    {{ partial "header.html" . }}
-    {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
+  {{ block "main" . }}{{ end }}
   </div>
+  {{ partial "footer.html" . }}
 
   <!-- javascript -->
   <script src='{{ "js/script.js" | absURL }}' defer></script>

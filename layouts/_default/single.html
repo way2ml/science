@@ -78,17 +78,15 @@
     {{ end }}
   </article>
 
-  <button onclick="topFunction()" id="back-to-top" title="Go to top">Back to Top</button>
 
-  {{ partial "sharingbuttons.html" . }}
   <div class="paginator">
     {{ if .PrevInSection }}
-    <a class="link" href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}">← prev</a>
+    <a class="link" href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}">← Prev</a>
     {{ else }}
     <a></a>
     {{ end }}
     {{ if .NextInSection }}
-    <a class="link" href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">next →</a>
+    <a class="link" href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">Next →</a>
     {{ else }}
     <a></a>
     {{ end }}

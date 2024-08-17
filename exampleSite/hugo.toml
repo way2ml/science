@@ -7,7 +7,7 @@ languageCode = "en"
 paginate = 5
 rssLimit = 10
 theme = "hugo-science"
-title = "Way To Machine Learning"
+title = "Info. Physics"
 
 [author]
 name = "Jie Huang"
@@ -18,64 +18,52 @@ tags = "tags"
 categories = "categories"
 
 [params]
-title="Way To Machine Learning"
+title="Information and Physics"
 description = "Understand Physcis through Machine Learning"
-footnote = """
-Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
-Theme <a class=link href=https://github.com/way2ml/hugo-science target=_blank rel=noopener>Science</a>
-"""
 customCSS = []
 customJS = []
 dateFormat = "2 January 2006"
 emphasisWithDots = true
-toc = true
+toc = false
 rootFontSize = "105%"
 math = true
 enableDuckDuckGoSearchBox = true
-numberedSubtitles = true
+numberedSubtitles = false
 
-  [params.commentEngine]
-  code = """
-  <script src="https://giscus.app/client.js"
-        data-repo="michaelneuper/hugo-texify3"
-        data-repo-id="R_kgDOIjPNaQ"
-        data-category="General"
-        data-category-id="DIC_kwDOIjPNac4CaklA"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme=""
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-  </script>
-  """
+[params.commentEngine]
+code = """
+<script src="https://giscus.app/client.js"
+      data-repo="way2ml/comments"
+      data-repo-id="R_kgDOGRwKvQ"
+      data-category="General"
+      data-category-id="DIC_kwDOGRwKvc4ChuA7"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="0"
+      data-emit-metadata="0"
+      data-input-position="top"
+      data-theme="light"
+      data-lang="en"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+</script>
+"""
 
-  [params.buymeacoffee]
-  code = """
-  <script async data-name="BMC-Widget" 
-        data-cfasync="true" 
-        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
-        data-id="michaelneuper" 
-        data-description="Like what I do? Buy me a coffee!" 
-        data-message="" 
-        data-color="#d79921" 
-        data-position="Right" 
-        data-x_margin="18" 
+[params.buymeacoffee]
+code = """
+  <script data-name="BMC-Widget"
+        data-cfasync="false"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="jiehuangfiv"
+        data-description="Support us on Buy me a coffee!"
+        data-message=""
+        data-color="#34928C"
+        data-position="Right"
+        data-x_margin="18"
         data-y_margin="18"
         crossorigin="anonymous">
-  </script>
-  """
+        </script>
+"""
 
-  [params.sharingbuttons]
-  facebook = true
-  twitter = true
-  email = true
-  linkedin = true
-  reddit = true
-  whatsapp = true
-  hackernews = true
-  telegram = true
+

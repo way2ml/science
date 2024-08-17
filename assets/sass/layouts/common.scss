@@ -39,13 +39,6 @@ time {
   min-width: 5rem;
 }
 
-hr {
-  background-color: var(--fg4);
-  margin-top: $margin;
-  margin-bottom: $margin;
-  border: 0;
-  height: $border;
-}
 
 #wrapper {
   background-color: var(--bg);
@@ -55,6 +48,7 @@ hr {
   min-height: 100vh;
   overflow-wrap: break-word;
   padding: 1rem $padding;
+  flex-grow: 1; /* Allows the footer to stick to the bottom */
 
   @media screen and (max-width: $mobile-breakpoint) {
     padding-left: math.div($padding, 3);
@@ -86,36 +80,44 @@ hr {
 
 // header
 #header {
-  align-items: center;
   display: flex;
-  flex-direction: column;
-
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem $padding;
   & > h1 {
-    text-align: center;
+    text-align: left;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
 
     @media screen and (min-width: $mobile-breakpoint) {
-      font-size: 2.8rem;
+      font-size: 1.8rem;
     }
   }
 
   & > nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     flex-wrap: wrap;
     max-width: $mobile-breakpoint;
-    margin-top: 10px;
-    width: 100%;
+    margin: 0;
+    width: auto;
 
     & > span > a {
       font-size: 1.2rem;
-      color: var(--fg1);
+      color: white;
       text-decoration: none;
       display: inline-block;
       position: relative;
+      margin-left: -1.5rem;
+      padding-left: 1rem;
+      
 
       &:after {
-        background-color: var(--fg1);
+        background-color: white;
         content: "";
         position: absolute;
         width: 100%;
@@ -133,13 +135,18 @@ hr {
       }
     }
   }
+  
+
 
   a,
   a:hover,
   a:visited {
-    color: var(--fg1);
+    color: white;
   }
+  background-color: var(--fg1);
 }
+
+
 
 // main
 main {
@@ -147,7 +154,7 @@ main {
 }
 
 #main {
-  align-self: center;
+  align-self: left;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -162,21 +169,37 @@ main {
 
 // footer
 #footer {
-  color: var(--fg4);
+  color: var(--bg);
+  background-color: var(--fg1);
   align-items: center;
-  display: flex;
+  display: left;
   font-size: 0.9rem;
   flex-direction: column;
-  margin-top: $margin;
+  // margin-top: auto; /* Allows the footer to stick to the bottom */ 
+  padding: 1rem $padding;
+
+  a {
+    color: white; /* Set the desired link color here */
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      color: white; /* Set the hover/focus color */
+    }
+
+    &:visited {
+      color: white; /* Optional: set the visited link color */
+    }
+  }
 
   & > .footnote {
-    text-align: center;
+    text-align: left;
   }
 }
 
 // misc
 #sharingbuttons {
-  align-items: center;
+  align-items: left;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -184,28 +207,6 @@ main {
   flex-wrap: wrap;
 }
 
-.dark-mode-toggle {
-  background-color: var(--bg);
-  color: var(--fg);
-  position: absolute;
-  top: calc(((4px + $margin) / 2) + 12.55px);
-  right: $padding;
-  border: none;
-  padding: 0.5rem;
-  border-radius: $radius;
-  cursor: pointer;
-  transition: opacity 0.3s;
-
-  &:hover {
-    color: var(--fg1);
-  }
-
-  @media screen {
-    @media screen and (max-width: $mobile-breakpoint) {
-      right: calc((4px + $margin) / 2);
-    }
-  }
-}
 
 .icon {
   svg {
@@ -224,3 +225,4 @@ main {
 .row {
   margin-left: 2rem;
 }
+
