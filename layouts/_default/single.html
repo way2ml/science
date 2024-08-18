@@ -19,9 +19,9 @@
   <div class="post-heading">
     <h1 class="post-title">{{ .Title }}</h1>
     <div class="publish-metadata">
-      {{/*  publish date  */}}
-      Date: {{ .PublishDate.Format .Site.Params.dateFormat }} | 
-      Author: {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Author.name }}{{ end }}
+      {{/*  publish author and date  */}}  
+      {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Author.name }}{{ end }} | 
+      Published {{ .PublishDate.Format .Site.Params.dateFormat }}  
     </div>
   </div>
 
